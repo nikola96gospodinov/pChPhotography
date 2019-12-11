@@ -125,6 +125,7 @@ class Form extends Component {
                 >Thank you for contacting me! I will be in touch with you shortly!</p>
                 :
                 <div
+                    id = 'form'
                     style = {{
                         display: 'flex',
                         alignItems: 'center',

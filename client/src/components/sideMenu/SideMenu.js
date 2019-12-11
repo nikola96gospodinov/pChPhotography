@@ -12,6 +12,7 @@ const SideMenu = () => {
                 padding: '3rem',
                 display: 'flex',
                 flexDirection: 'column',
+                alignContent: 'space-between',
                 height: 'calc(100vh - 7rem)',
                 position: 'fixed'
             }}

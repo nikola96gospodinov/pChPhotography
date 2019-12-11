@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'react-router-dom'
 import Radium from 'radium'
 
-import Hero from '../../../images/Hero.jpg'
+import AboutHero from '../../../images/AboutHero.jpg'
 
 function About() {
     return (
@@ -18,9 +18,10 @@ function About() {
         >
             <div 
                 style = {{
-                    background: `url(${Hero})`,
+                    background: `url(${AboutHero})`,
                     height: 'calc(100vh - 6rem)',
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                     marginTop: '3rem',
                     '@media (max-width: 900px)': {
                         margin: '0',

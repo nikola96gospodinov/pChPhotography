@@ -15,13 +15,15 @@ function mobileMenu(props) {
                 zIndex: '40',
                 display: 'flex',
                 flexDirection: 'column',
+                justifyContent: 'space-between',
                 position: 'fixed'
             }}
         >   
             <div
                 style = {{
                     display: 'flex',
-                    justifyContent: 'space-between'
+                    justifyContent: 'space-between'                  
+
                 }}
             >
                 <div
@@ -62,7 +64,7 @@ function mobileMenu(props) {
             <div
                 style = {{
                     marginLeft: '1.5rem',
-                    marginTop: '4rem',
+                    marginTop: '-10rem',
                     '@media (min-width: 600px)': {
                         marginTop: '7rem'
                     }
@@ -116,7 +118,7 @@ function mobileMenu(props) {
             <div
                 style = {{
                     marginLeft: '1.5rem',
-                    marginTop: 'auto',
+                    marginBottom: '2.5rem',
                     marginBottom: '2.5rem'
                 }}
             >

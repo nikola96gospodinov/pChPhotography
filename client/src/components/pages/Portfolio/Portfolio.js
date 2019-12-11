@@ -11,6 +11,11 @@ import Pic6 from '../../../images/Pic6.jpg'
 import Pic7 from '../../../images/Pic7.jpg'
 import Pic8 from '../../../images/Pic8.jpg'
 import Pic9 from '../../../images/Pic9.jpg'
+import Pic10 from '../../../images/Pic10.jpg'
+import Pic11 from '../../../images/Pic11.jpg'
+import Pic13 from '../../../images/Pic13.jpg'
+import Pic14 from '../../../images/Pic14.jpg'
+import Pic15 from '../../../images/Pic15.jpg'
 
 function Portfolio() {
     const pictures = [
@@ -28,21 +33,21 @@ function Portfolio() {
         }, 
         {
             pic: Pic3,
-            hasInstagramLink: false,
-            instagramLink: '',
-            title: ''
+            hasInstagramLink: true,
+            instagramLink: 'https://www.instagram.com/p/B4b-bnPIfEs/',
+            title: 'In the face of fear, you decide if you grow'
         }, 
         {
             pic: Pic4,
-            hasInstagramLink: false,
-            instagramLink: '',
-            title: ''
+            hasInstagramLink: true,
+            instagramLink: 'https://www.instagram.com/p/B1N7FNZHtU_/',
+            title: 'Looking up, never down.'
         }, 
         {
             pic: Pic5,
             hasInstagramLink: true,
-            instagramLink: 'https://www.instagram.com/p/B1N7FNZHtU_/',
-            title: 'Looking up, never down.'
+            instagramLink: 'https://www.instagram.com/p/B4j4nfbou7z/',
+            title: 'Unzip the mind and reveal the passion'
         }, 
         {
             pic: Pic6,
@@ -52,18 +57,48 @@ function Portfolio() {
         }, 
         {
             pic: Pic7,
-            hasInstagramLink: true,
-            instagramLink: 'https://www.instagram.com/p/B1MDQWyn0qA/',
-            title: 'Which lines does your eye follow? Are you on the ground or are you exploring the sky?'
-        }, 
-        {
-            pic: Pic8,
             hasInstagramLink: false,
             instagramLink: '',
             title: ''
         }, 
         {
+            pic: Pic8,
+            hasInstagramLink: true,
+            instagramLink: 'https://www.instagram.com/p/B13N7KzoRUI/',
+            title: 'Taking the stairs makes you see different perspectives'
+        }, 
+        {
             pic: Pic9,
+            hasInstagramLink: true,
+            instagramLink: 'https://www.instagram.com/p/B3tl49NInG-/',
+            title: 'Perspectives'
+        }, 
+        {
+            pic: Pic10,
+            hasInstagramLink: false,
+            instagramLink: '',
+            title: ''
+        }, 
+        {
+            pic: Pic11,
+            hasInstagramLink: false,
+            instagramLink: '',
+            title: ''
+        }, 
+        {
+            pic: Pic13,
+            hasInstagramLink: true,
+            instagramLink: 'https://www.instagram.com/p/B1MDQWyn0qA/',
+            title: 'Which lines does your eye follow. Are you staying on the ground or are you exploring the sky'
+        }, 
+        {
+            pic: Pic14,
+            hasInstagramLink: false,
+            instagramLink: '',
+            title: ''
+        }, 
+        {
+            pic: Pic15,
             hasInstagramLink: true,
             instagramLink: 'https://www.instagram.com/p/B1YbP2zJxk8/',
             title: 'Alleys in Varna'
